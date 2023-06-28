@@ -14,6 +14,8 @@ class ShowGuests {
         for(int roomNumb = 0; roomNumb < 12; roomNumb++) {
             guests[roomNumb] = diskScanner.nextInt();
         }
+        out.println("Всего комнат: " + guests.length);
+        out.println();
         out.println("Комната\tКоличество");
 
         for(int roomNumb = 0; roomNumb < 12; roomNumb++) {
