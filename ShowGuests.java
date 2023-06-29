@@ -24,5 +24,10 @@ class ShowGuests {
             out.println(guests[roomNumb]);
         }
 
+        out.println("А теперь кол-во гостей одной строкой:");
+        for(int numbOfGuests : guests) {
+            out.print(numbOfGuests + " ");
+        }
+
     }
 }
